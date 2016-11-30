@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.magnetic.rarbg-mc" name="Magnetic MC's [COLOR FF3860BB]RARBG[/COLOR] Provider" version="0.8.0"
+       provider-name="mancuniancol">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.magnetic" optional="false"/>
+    </requires>
+    <extension point="xbmc.python.script" library="main.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Magnetic RARBG Provider</summary>
+        <description lang="en">This provider allows to choose the quality of video torrent which will feed
+            Magnetic.[CR]You need to config the add-on before using Magnetic[CR]It works with Movies and some TV Shows
+        </description>
+        <language></language>
+        <platform>all</platform>
+        <forum>http://forum.xbmc.org/showthread.php?tid=204728</forum>
+        <disclaimer lang="en">It only works with Magnetic![CR]It is just for educational purpose[CR]Check if it is
+            illegal in your country to use.
+        </disclaimer>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    </extension>
+</addon>
