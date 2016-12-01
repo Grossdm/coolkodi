@@ -1,5 +1,110 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.audio.100fm" name="Radius 100FM" version="0.1.5" provider-name="Nir Elbaz">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.8.1"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+    <import addon="script.module.html5lib" version="0.999.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Radius 100FM - Music, that's all</summary>
+    <summary lang="he">רדיוס 100FM - מוסיקה, זה הכל</summary>
+    <description lang="en">Kodi addon of 100FM radio station. The addon offers live listening to the station, charts, music and more</description>
+    <description lang="he">תוסף קודי של תחנת הרדיו רדיוס FM100. התוסף מציע האזנה לשידורי התחנה, מצעד, מוסיקה ועוד</description>
+    <disclaimer lang="en">This is an unofficial addon which created to make 100FM website playlists accessible to Kodi users</disclaimer>
+    <language>he</language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
+    <website>http://nirelbaz.com/</website>
+    <email>nir@nirelbaz.com</email>
+  </extension>
+</addon>
+
+<addon id="plugin.audio.99fm-playlists"
+       name="99FM Playlists"
+       version="0.3.0"
+       provider-name="nirelbaz">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="2.8.1"/>
+        <import addon="script.module.xbmcswift2" version="2.4.0"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+        <import addon="script.module.html5lib" version="0.999.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">99FM - The greatest songs</summary>
+        <summary lang="he">99FM - השירים הטובים ביותר</summary>
+        <description lang="en">Great collection of songs created by the gifted 99FM radio station music editors
+        </description>
+        <description lang="he">אוסף מעולה של שירים שנערכו על-ידי העורכים המוכשרים של תחנת הרדיו 99FM</description>
+        <disclaimer lang="en">This is an unofficial addon which created to make 99FM website playlists accessible to
+            Kodi users
+        </disclaimer>
+        <language>he</language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
+        <website>http://nirelbaz.com/</website>
+        <email>nir@nirelbaz.com</email>
+    </extension>
+</addon>
+
+<addon id="plugin.audio.internetradio" name="israel radio" version="1.0.0" provider-name="ilancoll">
+    <requires>
+      <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="Default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">israel  radio from  Internet</summary>
+        <summary lang="he">רדיו מישראל שמשודר באינטרנט</summary>
+        <description lang="en">israel  radio from  Internet</description>
+        <description lang="he">רדיו מישראל שמשודר באינטרנט</description>
+    </extension>
+</addon>
+
+<addon id="plugin.audio.musicbox" name="Music Box" version="0.1.3" provider-name="techdealer">
+  <requires>
+    <import addon="xbmc.python" version="2.20.0"/>
+	<import addon="script.module.simple.downloader" version="1.9.4"/>
+	<import addon="plugin.video.youtube" version="2.9.2"/>
+	<import addon="script.module.mutagen"/>
+	<import addon="script.module.requests" version="2.3.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Music Box</summary>
+    <description lang="en">Music box is a new way to listen and discover music thought KODI.</description>
+    <language>en</language>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.audio.worldwideradio" name="world wide radio" version="1.0.0" provider-name="ilancoll">
+    <requires>
+      <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="Default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">world wide radio from  Internet</summary>
+        <summary lang="he">רדיו באינטרנט מכול העולם</summary>
+        <description lang="en">world wide radio from  Internet</description>
+        <description lang="he">תחנות רדיו מכול העולם משודרות באינטרנט </description>
+    </extension>
+</addon>
+
 <addon id="skin.eminence.he.2" version="0.9.48" name="Eminence He 2.0" provider-name="jurialmunkey">
     <requires>
         <import addon="xbmc.gui" version="5.10.0"/>
