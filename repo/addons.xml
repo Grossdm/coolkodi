@@ -501,6 +501,110 @@
     </extension>
 </addon>
 
+<addon id="resource.images.skinbackgrounds.clear.he" name="Skin Backgrounds - Clear Design (Hebrew)" version="1.0.1" provider-name="Orna Post, Benny Buchnik">
+	<extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Skin backgrounds Pack - Clear Design</summary>
+		<description lang="en">Skin backgrounds Pack - Clear Design</description>
+		<summary lang="he">חבילת רקעים - סגנון נקי</summary>
+		<description lang="he">חבילת רקעים - סגנון נקי</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="resource.images.skinbackgrounds.wallsquare.he" name="Skin Backgrounds - Wall Square (Hebrew)" version="1.0.1" provider-name="Orna Post, Benny Buchnik">
+	<extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Skin Backgrounds Pack - Wall Square Design</summary>
+		<description lang="en">Skin Backgrounds Pack - Wall Square Design</description>
+		<summary lang="he">חבילת רקעים - סגנון מרובע</summary>
+		<description lang="he">חבילת רקעים - סגנון מרובע</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="resource.images.skinbackgrounds.zigzag.he" name="Skin Backgrounds - ZigZag Design (Hebrew)" version="1.0.2" provider-name="Orna Post, Benny Buchnik">
+	<extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Skin Backgrounds Pack - ZigZag Design</summary>
+		<description lang="en">Skin Backgrounds Pack - ZigZag Design</description>
+		<summary lang="he">חבילת רקעים - סגנון זיגזג</summary>
+		<description lang="he">חבילת רקעים - סגנון זיגזג</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="resource.images.skinicons.boss.he" name="Skin Icons - Boss Design (Hebrew)" version="1.0.1" provider-name="Orna Post, Benny Buchnik">
+	<extension point="kodi.resource.images" compile="false" type="skinicons" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Skin Icons Pack - Boss Design</summary>
+		<description lang="en">Skin Icons Pack - Boss Design</description>
+		<summary lang="he">חבילת אייקונים - בוס</summary>
+		<description lang="he">חבילת אייקונים - בוס</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="resource.images.studios.white" name="Studio Icons - White" version="0.0.6" provider-name="Team Kodi">
+	<extension point="kodi.resource.images" compile="true" type="studios" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">White Studio Icons</summary>
+		<description lang="en">White Studio Icons</description>
+		<platform>all</platform>
+		<license>Creative Commons Attribution-Share Alike 3.0 United States</license>
+	</extension>
+</addon>
+
+<addon id="resource.images.weatherfanart.single" name="Weather Fanart - Single" version="0.0.6" provider-name="Silverxxx,Team Kodi">
+	<extension point="kodi.resource.images" compile="false" type="weather" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Weather Fanart Single</summary>
+		<description lang="en">A single Weather Fanart image for every weather condition</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon
+  id="resource.language.he_il"
+  version="2.0.4"
+  name="Hebrew"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="he_IL">
+    <charsets>
+      <gui unicodefont="true">CP1255</gui>
+      <subtitle>CP1255</subtitle>
+    </charsets>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Hebrew language pack</summary>
+    <description lang="en">Hebrew version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="skin.eminence.he.2" version="0.9.48" name="Eminence He 2.0" provider-name="jurialmunkey">
     <requires>
         <import addon="xbmc.gui" version="5.10.0"/>
