@@ -168,6 +168,55 @@
     </extension>
 </addon>
 
+<addon id="repository.mdrepo" name="Mucky Ducks Repo" version="1.0.2" provider-name="Mucky Duck">
+	<extension point="xbmc.addon.repository" name="Mucky Ducks Repo">
+		<info compressed="false">https://raw.githubusercontent.com/mucky-duck/mdrepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/mucky-duck/mdrepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/mucky-duck/mdrepo/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Mucky Ducks Repo</summary>
+		<description>Download And Install Addons Developed By Mucky Duck And Various Other Developers </description>
+		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.metalkettle" name="MetalKettles Addon Repository" version="1.7.1" provider-name="MetalKettle">
+	<extension point="xbmc.addon.repository" name="MetalKettles Addon Repository">
+	<dir>
+		<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+		<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+	</dir>
+		<info compressed="false">http://offshoregit.com/metalkettle/addons.xml</info>
+		<checksum>http://offshoregit.com/metalkettle/addons.xml.md5</checksum>
+		<datadir zip="true">http://offshoregit.com/metalkettle/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install my Addons</summary>
+		<description>Download and install addons from MetalKettle</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+    <addon id="repository.origin" name="Origin Repo" version="1.0.1" provider-name="Origin">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Origin Repo">
+            <info compressed="false">https://raw.githubusercontent.com/toall1985/origin/master/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/toall1985/origin/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/toall1985/origin/master/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>A short summary of this addon</summary>
+            <description>Origin Builds Repo</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="skin.eminence.he.2" version="0.9.48" name="Eminence He 2.0" provider-name="jurialmunkey">
     <requires>
         <import addon="xbmc.gui" version="5.10.0"/>
