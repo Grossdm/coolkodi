@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.coolkodi" name="[COLOR yellow]Coolkodi[/COLOR] Repository" version="1.1.0" provider-name="ilancoll">
+	<extension point="xbmc.addon.repository" name="coolkodi Repository">
+			<info compressed="false">https://raw.githubusercontent.com/ilancoll/coolkodi/master/repo/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/ilancoll/coolkodi/master/repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/ilancoll/coolkodi/master/repo</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">coolkodi repository</summary>
+		<description lang="en">coolkodi repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
