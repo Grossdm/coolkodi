@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+    id="skin.eminence.2.mod.Krypton"
+    version="1.8.2"
+    name="Eminence 2.0 MOD (Krypton)"
+    provider-name="jurialmunkey - Mod by Guilouz - Mod by Alanon">
+    <requires>
+        <import addon="xbmc.gui" version="5.12.0"/>
+        <import addon="script.skinshortcuts" version="0.6.0"/>
+        <import addon="script.skin.helper.service" version="0.0.1"/>
+        <import addon="script.extendedinfo" version="3.0.0"/>
+        <import addon="script.image.resource.select" version="0.0.5"/>
+        <import addon="plugin.program.autocompletion" version="1.0.1"/>
+    </requires>
+    <extension point="xbmc.gui.skin" effectslowdown="1.00" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Clean, clear, simple, modern.</summary>
+        <summary lang="fr">Clair, simple et moderne.</summary>
+        <disclaimer lang="en">Mouse and Touch device not supported</disclaimer>
+        <disclaimer lang="fr">La souris et les périphériques tactiles ne sont pas supportés</disclaimer>
+        <description lang="en">Eminence is a skin that aims to be clean, clear, simple and modern.</description>
+        <description lang="fr">Eminence est un thème qui vise à être clair, simple et moderne.</description>
+		<news> Changelog:	
+		[B]1.8.2[/B]
+		1. More code updates and fixes.
+		2. Added new info for addons.
+		
+		[B]1.8.1[/B]
+		1. New skin icon.
+		2. Begun updating the code to reflect soon-to-be deprecated string bools.
+		3. A bunch of small fixes to the code.
+		4. Some new flags.
+		
+		[B]1.8[/B]
+		1. Improvements and fixes for the Video OSD.
+		2. Moved my portion of the changelog to the addon.xml.
+		3. Restored the addoninfo changelog button for the "news" value.
+		4. Added a setting for duration formats. "script.duration_axbmcuser" now required.
+		5. Updated required addons list.
+		6. Small fixes for the Showcase view.
+
+		[B]1.7[/B]
+		1. Improved vertical and horizontal scrolling.
+		2. Added letter scrollbar (by marcelvedt and the Aeon Madnox team!).
+		3. Added Player.Process dialog for Krypton.
+		4. Adapted the game controlers file from Eminence 2.5 (needs to be tested).
+		5. Fixed some small glitches.
+
+		[B]1.6[/B]
+		1. Added animated artwork!
+		2. Cleaned up inconsistent code.
+		3. Added proper settings and labels for various new features.
+
+		[B]1.5.1[/B]
+		1. Better flags icons and other small fixes.
+
+		[B]1.5[/B]
+		1. Added support for rotating ExtraFanart with Skin Helper!
+		2. Fixed the Krypton settings screen.
+		3. Added RottenTomatoes, Metacritic and IMDb ratings to the VideoInfo screen.
+		4. Updated the Dialogs and added the "Get more..." and "Cancel" buttons.
+		5. Added the Showcase view from Eminence 2.5!
+		6. Redesigned the way Video OSD works.
+		7. Fixed most of the Skin Helper properties.
+		8. Altered flag aspect ratio.
+		9. Fixed and improved the movieset display.
+		10. Redesigned the large submenu.
+		11. Tweaked the timestamp bubble.
+		12. Removed the changelog button from the addon info screen.
+		13. Darkened the interface dffuse graphic.
+		14. Repaired the subitle offset slider.
+		15. Modded the way source flags are displayed while playing.
+		16. Changed the OSD info button function.
+		</news>
+	</extension>
+</addon>
